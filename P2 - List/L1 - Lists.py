@@ -1,4 +1,5 @@
 # Lists are mutable i.e. updatable
+# class <list>
 
 li = [4,3,2,'hji',True,None,3.8]      # Heterogeneous
 a = len(li)                           # length of list (7)
