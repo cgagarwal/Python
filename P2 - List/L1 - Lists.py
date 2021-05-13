@@ -9,6 +9,7 @@ li[4] = 0         # updation
 
 
 # Functions on list     [1,2,5]
+c = li.copy()           # make a copy of list
 
 li.append(12)          # append 12 at last      [1,2,5,12]
 li.pop()              # remove last element     [1,2,5]
