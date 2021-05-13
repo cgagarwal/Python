@@ -21,3 +21,7 @@ li.reverse()             # reverse the list          [12,6,1,8,2]
 li.count(2)              # count occurrence of 2   (1)
 li.sort()                # sorts the list (ascending)   [1,2,6,8,12]
 li.clear()               # clears the list i.e. empty       []
+
+
+print([1,2]+[2,3])          # Concatenation     [1,2,2,3]
+print([1,5]*3)              # Replication     [1,5,1,5,1,5]
