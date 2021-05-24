@@ -35,3 +35,9 @@ print(a[:7])          # from 0 to 6
 print(a[::2])          # every 2 element
 print(a[::-1])        # reversed
 print(a[::-3])          # from last with jump 3
+
+# Text Alignment
+
+print('hi'.ljust(10,'-'))           # hi--------
+print('hi'.rjust(10,'-'))           # --------hi
+print('hi'.center(10,'-'))          # ----hi----
