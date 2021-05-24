@@ -27,3 +27,6 @@ li.clear()               # clears the list i.e. empty       []
 
 print([1,2]+[2,3])          # Concatenation     [1,2,2,3]
 print([1,5]*3)              # Replication     [1,5,1,5,1,5]
+
+a = ['i','am','arg']
+print('-'.join(a))          # i-am-arg    (joins the list)
