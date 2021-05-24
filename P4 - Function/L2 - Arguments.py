@@ -19,8 +19,14 @@ fun(12,15)        # x = 12 , y = 15 (updated) , z = 12 (default)
 def fun(*nums):
   pass
 
-fun(10,112,33,2,31,2)     # for accessing , num is a list of variable
+fun(10,112,33,2,31,2)     # for accessing , num is a tuple of variable
 
 '''   A list in function is updated and changed globally
     but for string , int , bool , float copy of that is passed
     i.e. they remains same after executing function     '''
+
+# Variable Length Keyword Arguments
+def fnc(**args):
+  print("Hello" + args['name'])
+  
+fnc(name = "Chirag")
