@@ -19,3 +19,9 @@ print('a' > 'A')      # True (ASCII)
 
 a = ord('c')        # 99  ; ASCII value of c
 b = chr(98)         # b   ; ASCII at 98
+
+print(str.isalnum())        #   a-z , A-Z , 0-9
+print(str.isalpha())        #   a-z , A-Z
+print(str.isdigit())        #   0-9
+print(str.islower())        #   a-z
+print(str.isupper())        #   A-Z
