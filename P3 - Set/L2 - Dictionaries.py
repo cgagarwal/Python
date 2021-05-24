@@ -17,3 +17,7 @@ c = d.get('gur')        # None
 b = d.values()        # dict_values([  ])
 b = d.keys()           # dict_keys([  ])
 d.clear()             # clears the dict
+
+from collections import defaultdict
+d = defaultdict(list)         # arg must be callable function
+print(d[2])              #  [] default element if not updated
