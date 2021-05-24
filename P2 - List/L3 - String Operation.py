@@ -17,5 +17,5 @@ print('a' > 'A')      # True (ASCII)
 
 ''' ASCII       A (65)  ; a (97)   '''
 
-a = ord('c')        # 99
-b = chr(98)         # b
+a = ord('c')        # 99  ; ASCII value of c
+b = chr(98)         # b   ; ASCII at 98
